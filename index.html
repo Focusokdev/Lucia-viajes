@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="es">
+  
+  <head>  
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090909" />
+    <meta name="description" content="Descubrí Argentina con Lucía Viajes. Siete destinos inolvidables, experiencias a tu medida." />
+    <title>Lucía 2025 | Viajes por Argentina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+    <div class="utility-bar">
+      <div class="utility-inner">
+        <span>VIAJES CON PROPÓSITO</span>
+        <div class="utility-links" aria-label="Enlaces rápidos">
+          <a href="#destinos">Inspiración</a><span aria-hidden="true">|</span>
+          <a href="#destinos">Escapadas</a><span aria-hidden="true">|</span>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+    </div>
+
+    <header class="site-header" id="inicio">
+      <div class="header-inner">
+        <a class="brand" href="#inicio" aria-label="Lucía Viajes, inicio">
+          <span class="brand-name">LUCÍA <span>2025</span><svg class="brand-butterfly" viewBox="0 0 44 34" aria-hidden="true"><defs><linearGradient id="wing" x1="0" x2="1"><stop stop-color="#ed7bca"/><stop offset=".5" stop-color="#c89cec"/><stop offset="1" stop-color="#83ded3"/></linearGradient></defs><path fill="url(#wing)" d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/><path d="M21 18c-1-6-3-9-7-12m9 12c1-6 3-9 7-12" fill="none" stroke="#4a394b" stroke-width=".9" stroke-linecap="round"/></svg></span>
+          <span class="brand-sub">V I A J E S</span>
+        </a>
+
+        <button class="icon-button mobile-menu-button" id="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="primary-nav">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+        </button>
+        <nav class="primary-nav" id="primary-nav" aria-label="Navegación principal">
+          <a href="#inicio">Inicio</a><span aria-hidden="true">|</span>
+          <a href="#destinos">Destinos</a><span aria-hidden="true">|</span>
+          <a href="#experiencias">Experiencias</a><span aria-hidden="true">|</span>
+          <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button" id="search-toggle" type="button" aria-label="Buscar destinos" aria-expanded="false" aria-controls="search-panel">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg>
+          </button>
+          <a class="icon-button profile-button" href="#contacto" aria-label="Ir a contacto">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.2"/><path d="M5 20c.5-4 3.1-6.1 7-6.1s6.5 2.1 7 6.1z"/></svg>
+          </a>
+        </div>
+      </div>
+      <form class="search-panel" id="search-panel" role="search" hidden>
+        <label for="destination-search">Encontrá tu próximo destino</label>
+        <div class="search-input-wrap">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.7"/><path d="m16 16 5 5"/></svg>
+          <input id="destination-search" type="search" placeholder="Probá con “Salta” o “playas”…" autocomplete="off" />
+          <button type="button" class="search-close" id="search-close" aria-label="Cerrar búsqueda">×</button>
+        </div>
+      </form>
+    </header>
+
+    <main id="contenido">
+      <section class="hero" id="experiencias" aria-labelledby="hero-title">
+        <div class="hero-media">
+          <img class="hero-image" id="hero-image" src="./assets/hero-iguazu.webp" alt="Vista panorámica de las Cataratas del Iguazú rodeadas de selva" fetchpriority="high" />
+        </div>
+        <div class="hero-shade"></div>
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow"><span></span> VIAJÁ POR ARGENTINA <span></span></p>
+          <h1 id="hero-title">ENCONTRÁ<br class="mobile-break" /> TUS ALAS</h1>
+          <p class="hero-description">Experiencias únicas para conectar con lo que te mueve.<br class="desktop-break" /> Tu próximo destino está más cerca de lo que imaginás.</p>
+          <a class="gradient-button" href="#destinos">EXPLORAR DESTINOS <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-caption" aria-hidden="true"><span>25°41′S</span><i></i><span>54°26′W · MISIONES</span></div>
+        <div class="hero-scroll" aria-hidden="true"><span>DESLIZÁ PARA DESCUBRIR</span><i></i></div>
+      </section>
+
+      <section class="destinations-section" id="destinos" aria-labelledby="destinations-title">
+        <div class="rainbow-swoop" aria-hidden="true"></div>
+        <div class="butterfly-field" aria-hidden="true">
+          <svg viewBox="0 0 44 34"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/></svg>
+          <svg viewBox="0 0 44 34"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/></svg>
+          <svg viewBox="0 0 44 34"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/></svg>
+          <svg viewBox="0 0 44 34"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/></svg>
+          <svg viewBox="0 0 44 34"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/></svg>
+        </div>
+        <div class="section-shell">
+          <header class="section-heading">
+            <p class="eyebrow"><span class="eyebrow-line"></span> ARGENTINA, DE NORTE A SUR <span class="eyebrow-line"></span></p>
+            <h2 id="destinations-title">UN PAÍS, <em>SIETE</em> FORMAS<br class="heading-break" /> DE ENAMORARTE</h2>
+            <p>Elegí tu próxima aventura. Nosotros ponemos el camino.</p>
+          </header>
+          <p class="results-status" id="results-status" aria-live="polite">Siete destinos para descubrir</p>
+          <div class="destination-grid" id="destination-grid" aria-live="polite"></div>
+          <div class="empty-state" id="empty-state" hidden>
+            <span class="empty-butterfly" aria-hidden="true">✦</span>
+            <h3>No encontramos ese destino</h3>
+            <p>Probá otra búsqueda o recorré las siete propuestas.</p>
+            <button class="text-button" id="clear-search" type="button">Ver todos los destinos <span aria-hidden="true">↗</span></button>
+          </div>
+          <div class="section-endnote"><span></span> HECHO PARA SALIR A DESCUBRIR <span></span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contacto">
+      <div class="footer-top">
+        <a class="footer-brand" href="#inicio" aria-label="Lucía Viajes, volver al inicio">
+          <span class="footer-brand-name">LUCÍA 2025</span>
+          <span class="footer-brand-sub">VIAJES</span>
+        </a>
+        <div class="footer-note">
+          <svg class="footer-butterfly" viewBox="0 0 44 34" aria-hidden="true"><path d="M21 15C16-1 1 1 5 13c2 6 9 6 15 5-10 2-13 10-6 13 5 2 8-4 8-13 0 9 4 15 9 13 7-3 3-11-6-13 6 1 13 1 15-5C44 1 29-1 23 15l-1 3z"/><path d="M21 18c-1-6-3-9-7-12m9 12c1-6 3-9 7-12" fill="none" stroke="#1b1421" stroke-width="1"/></svg>
+          <p>El mundo es enorme.<br /><em>Empezá por acá.</em></p>
+        </div>
+        <div class="footer-links">
+          <p class="footer-label">DESCUBRÍ</p>
+          <a href="#destinos">Destinos</a>
+          <a href="#experiencias">Nuestra inspiración</a>
+          <a href="#inicio">Volver arriba ↑</a>
+        </div>
+        <div class="footer-contact">
+          <p class="footer-label">HABLEMOS DE VIAJES</p>
+          <p>¿Ya tenés un destino en mente?<br />Elegí una experiencia y empezá a soñar.</p>
+          <a class="footer-cta" href="#destinos">ELEGIR DESTINO <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2025 LUCÍA VIAJES</span><span>DISEÑADO CON GANAS DE VIAJAR</span><a href="#inicio">VOLVER AL INICIO ↑</a></div>
+    </footer>
+
+    <dialog class="destination-dialog" id="destination-dialog" aria-labelledby="dialog-title">
+      <button class="dialog-close" id="dialog-close" type="button" aria-label="Cerrar detalle">×</button>
+      <div class="dialog-image-wrap"><img id="dialog-image" src="" alt="" /></div>
+      <div class="dialog-copy"><p class="eyebrow"><span class="eyebrow-line"></span> DESCUBRÍ ARGENTINA</p><h2 id="dialog-title"></h2><p id="dialog-description"></p><button class="gradient-button dialog-action" id="dialog-action" type="button">VOLVER A LOS DESTINOS <span aria-hidden="true">↗</span></button></div>
+    </dialog>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
