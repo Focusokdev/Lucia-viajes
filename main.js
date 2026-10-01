@@ -6,7 +6,7 @@ const destinations = [
     description:
       "Un viaje inolvidable a una de las maravillas naturales del mundo. ¡Ideal para conectar con la naturaleza!",
     alt: "Vista panorámica de la Garganta del Diablo y las pasarelas entre la selva de Iguazú",
-    image: "./assets/iguazu.webp",
+    image: "/assets/iguazu.webp",
     position: "center",
   },
   {
@@ -16,7 +16,7 @@ const destinations = [
     description:
       "El destino clásico y familiar para disfrutar del verano, el sol y las mejores playas de la costa argentina.",
     alt: "Día soleado en la playa de San Bernardo con el mar y el muelle de fondo",
-    image: "./assets/san-bernardo.webp",
+    image: "/assets/san-bernardo.webp",
     position: "center",
   },
   {
@@ -26,7 +26,7 @@ const destinations = [
     description:
       "Descubrí los colores del norte, sus increíbles cerros, peñas y su exquisita gastronomía tradicional.",
     alt: "Cerro de los Siete Colores en Purmamarca, Salta, bajo un cielo luminoso",
-    image: "./assets/salta.webp",
+    image: "/assets/salta.webp",
     position: "center",
   },
   {
@@ -36,7 +36,7 @@ const destinations = [
     description:
       "Un verdadero oasis de relax. Aguas termales y tranquilidad absoluta, perfectas para desconectar de la rutina.",
     alt: "Piscina termal al aire libre entre jardines y árboles en Federación",
-    image: "./assets/federacion.webp",
+    image: "/assets/federacion.webp",
     position: "center",
   },
   {
@@ -46,7 +46,7 @@ const destinations = [
     description:
       "Aventura, majestuosos paisajes montañosos y visitas a las mejores bodegas. ¡Un viaje que lo tiene todo!",
     alt: "Cañón del Atuel y aguas turquesas del embalse Valle Grande en San Rafael, Mendoza",
-    image: "./assets/san-rafael.webp",
+    image: "/assets/san-rafael.webp",
     position: "center",
   },
   {
@@ -56,7 +56,7 @@ const destinations = [
     description:
       "Naturaleza en estado puro. Vení a maravillarte con nuestra fauna marina, avistaje de ballenas y pingüinos.",
     alt: "Pingüinos de Magallanes en una costa patagónica junto al mar",
-    image: "./assets/patagonia.webp",
+    image: "/assets/patagonia.webp",
     position: "center",
   },
   {
@@ -66,7 +66,7 @@ const destinations = [
     description:
       "Viví la emoción de un recital en el Estadio Monumental de River Plate: música en vivo y una noche para recordar.",
     alt: "Concierto nocturno en el Estadio Monumental de River Plate, con el público y el escenario iluminados",
-    image: "./assets/river-recitales.webp",
+    image: "/assets/river-recitales.webp",
     position: "center",
   },
 ];
