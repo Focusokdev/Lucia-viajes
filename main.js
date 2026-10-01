@@ -90,8 +90,8 @@ function butterflyIcon() {
 }
 
 function whatsappShareLink(destination) {
-  const message = `Hola, quisiera recibir información sobre ${destination.name}.`;
-  return `https://api.whatsapp.com/send?text=${encodeURIComponent(message)}`;
+  const message = `hola quiero consultar un viaje a ${destination.name}.`;
+  return `https://wa.me/541122658737?text=${encodeURIComponent(message)}`;
 }
 
 function renderCards() {
